@@ -268,7 +268,7 @@ region_data:
   KR:
     available_locales:
     - ko_KR
-    default_locale: ko_KR
+    default_locale: en_AU
     rso:
       allow_lq_fallback: false
       kount:
@@ -277,6 +277,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: OC1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.oc1.lol.riotgames.com
@@ -289,7 +292,7 @@ region_data:
       lcds:
         lcds_host: prod.oc1.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.oc1.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.oc1.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         eula: http://oce.leagueoflegends.com/{language}/legal/eula
@@ -346,3 +349,4 @@ rso:
     collector: prod02.kaxsdc.com
     merchant: '108000'
   token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
+
