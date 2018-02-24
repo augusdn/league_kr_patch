@@ -16,13 +16,13 @@ app:
   ux_helper_name: LeagueClientUxHelper
   ux_name: LeagueClientUx
 build:
-  branch: '8.3'
-  branch-full: LCUReleases/8.3
-  code-build-id: 6979180
-  content-build-id: 7040623
-  game-branch: '8.3'
-  game-branch-full: Releases/8.3
-  game-data-build-id: 6927708
+  branch: '8.4'
+  branch-full: LCUReleases/8.4
+  code-build-id: 7121195
+  content-build-id: 7122250
+  game-branch: '8.4'
+  game-branch-full: Releases/8.4
+  game-data-build-id: 7068078
   patchline: live
   patchline-visible-name: ''
 default_region: NA
@@ -270,6 +270,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: BR1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.br.lol.riotgames.com
@@ -282,7 +285,7 @@ region_data:
       lcds:
         lcds_host: prod.br.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.br.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.br.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         eula: http://br.leagueoflegends.com/{language}/legal/eula
@@ -317,6 +320,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: EUN1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.eun1.lol.riotgames.com
@@ -329,7 +335,7 @@ region_data:
       lcds:
         lcds_host: prod.eun1.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.eun1.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.eun1.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         terms_of_use: http://eune.leagueoflegends.com/{language}/legal/termsofuse
@@ -362,6 +368,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: EUW1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.euw1.lol.riotgames.com
@@ -374,7 +383,7 @@ region_data:
       lcds:
         lcds_host: prod.euw1.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.euw1.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.euw1.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         terms_of_use: http://euw.leagueoflegends.com/{language}/legal/termsofuse
@@ -403,6 +412,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: JP1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.jp1.lol.riotgames.com
@@ -445,6 +457,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: LA1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.la1.lol.riotgames.com
@@ -457,7 +472,7 @@ region_data:
       lcds:
         lcds_host: prod.la1.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.la1.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.la1.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         eula: http://lan.leagueoflegends.com/{language}/legal/eula
@@ -487,6 +502,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: LA2
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.la2.lol.riotgames.com
@@ -499,7 +517,7 @@ region_data:
       lcds:
         lcds_host: prod.la2.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.la2.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.la2.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         eula: http://las.leagueoflegends.com/{language}/legal/eula
@@ -529,6 +547,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: NA1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.na2.lol.riotgames.com
@@ -541,7 +562,7 @@ region_data:
       lcds:
         lcds_host: prod.na2.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.na2.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.na2.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         terms_of_use: http://na.leagueoflegends.com/{language}/legal/termsofuse
@@ -570,6 +591,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: OC1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.oc1.lol.riotgames.com
@@ -582,7 +606,7 @@ region_data:
       lcds:
         lcds_host: prod.oc1.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.oc1.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.oc1.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         eula: http://oce.leagueoflegends.com/{language}/legal/eula
@@ -612,6 +636,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: RU
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.ru.lol.riotgames.com
@@ -624,7 +651,7 @@ region_data:
       lcds:
         lcds_host: prod.ru.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.ru.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.ru.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         eula: http://ru.leagueoflegends.com/{language}/legal/eula
@@ -655,6 +682,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: NA1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.na2.lol.riotgames.com
@@ -667,7 +697,7 @@ region_data:
       lcds:
         lcds_host: prod.na2.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.na2.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.na2.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         terms_of_use: http://na.leagueoflegends.com/{language}/legal/termsofuse
@@ -696,6 +726,9 @@ region_data:
       token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
     rso_platform_id: TR1
     servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
       chat:
         allow_self_signed_cert: false
         chat_host: chat.tr.lol.riotgames.com
@@ -708,7 +741,7 @@ region_data:
       lcds:
         lcds_host: prod.tr.lol.riotgames.com
         lcds_port: 2099
-        login_queue_url: https://lqak.tr.lol.riotgames.com/login-queue/rest/queues/lol
+        login_queue_url: https://lq.tr.lol.riotgames.com/login-queue/rest/queues/lol
         use_tls: true
       license_agreement_urls:
         terms_of_use: http://tr.leagueoflegends.com/{language}/legal/termsofuse
@@ -725,3 +758,4 @@ region_data:
       store:
         store_url: https://store.tr.lol.riotgames.com
     web_region: tr
+
