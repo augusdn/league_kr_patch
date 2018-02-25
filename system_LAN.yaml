@@ -1,0 +1,342 @@
+---
+app:
+  app_name: LeagueClient
+  bugsplat:
+    debug: league_client_internal_riotgames_com
+    public: league_client_riotgames_com
+    releasedbg: league_client_internal_riotgames_com
+  local_settings_file: Config/LeagueClientSettings.yaml
+  log_dir: LeagueClient Logs
+  project: LeagueClient
+  respawn:
+    command: LeagueClient.exe
+    display_name: League of Legends
+  splash: lol
+  telemetry:
+    endpoint:
+      debug: https://test.ekg.riotgames.com/messages
+      public: https://ekg.riotgames.com/messages
+      releasedbg: https://ekg.riotgames.com/messages
+    event_prefix: riot__rclient__
+  ux_app_bundle_name: League of Legends
+  ux_helper_name: LeagueClientUxHelper
+  ux_name: LeagueClientUx
+build:
+  branch: '7.10'
+  branch-full: LCUReleases/7.10
+  code-build-id: 4442848
+  content-build-id: 4442067
+  game-branch: '7.10'
+  game-branch-full: Releases/7.10
+  game-data-build-id: 4427515
+  patchline: KR_CBT
+  patchline-visible-name: ''
+default_region: KR
+legacy-restart-enabled: true
+opt-in-migration-enabled: true
+patcher:
+  is_p2p_enabled: true
+  product_refresh_period: 20
+  self_update:
+    component_id: league_client_sln
+    executables:
+      app: LeagueClient.exe
+      exe: LeagueClient.exe
+    files:
+      debug:
+      - BsSndRpt.exe
+      - BugSplatD.dll
+      - BugSplatRc.dll
+      - concrt140d.dll
+      - msvcp140d.dll
+      - vcruntime140d.dll
+      - api-ms-win-core-console-l1-1-0.dll
+      - api-ms-win-core-datetime-l1-1-0.dll
+      - api-ms-win-core-debug-l1-1-0.dll
+      - api-ms-win-core-errorhandling-l1-1-0.dll
+      - api-ms-win-core-file-l1-1-0.dll
+      - api-ms-win-core-file-l1-2-0.dll
+      - api-ms-win-core-file-l2-1-0.dll
+      - api-ms-win-core-handle-l1-1-0.dll
+      - api-ms-win-core-heap-l1-1-0.dll
+      - api-ms-win-core-interlocked-l1-1-0.dll
+      - api-ms-win-core-libraryloader-l1-1-0.dll
+      - api-ms-win-core-localization-l1-2-0.dll
+      - api-ms-win-core-memory-l1-1-0.dll
+      - api-ms-win-core-namedpipe-l1-1-0.dll
+      - api-ms-win-core-processenvironment-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-1.dll
+      - api-ms-win-core-profile-l1-1-0.dll
+      - api-ms-win-core-rtlsupport-l1-1-0.dll
+      - api-ms-win-core-string-l1-1-0.dll
+      - api-ms-win-core-synch-l1-1-0.dll
+      - api-ms-win-core-synch-l1-2-0.dll
+      - api-ms-win-core-sysinfo-l1-1-0.dll
+      - api-ms-win-core-timezone-l1-1-0.dll
+      - api-ms-win-core-util-l1-1-0.dll
+      - api-ms-win-crt-conio-l1-1-0.dll
+      - api-ms-win-crt-convert-l1-1-0.dll
+      - api-ms-win-crt-environment-l1-1-0.dll
+      - api-ms-win-crt-filesystem-l1-1-0.dll
+      - api-ms-win-crt-heap-l1-1-0.dll
+      - api-ms-win-crt-locale-l1-1-0.dll
+      - api-ms-win-crt-math-l1-1-0.dll
+      - api-ms-win-crt-multibyte-l1-1-0.dll
+      - api-ms-win-crt-private-l1-1-0.dll
+      - api-ms-win-crt-process-l1-1-0.dll
+      - api-ms-win-crt-runtime-l1-1-0.dll
+      - api-ms-win-crt-stdio-l1-1-0.dll
+      - api-ms-win-crt-string-l1-1-0.dll
+      - api-ms-win-crt-time-l1-1-0.dll
+      - api-ms-win-crt-utility-l1-1-0.dll
+      - ucrtbased.dll
+      - libcurld.dll
+      - libcrypto-1_1.dll
+      - libssl-1_1.dll
+      - libnghttp2.dll
+      - yaml.dll
+      - zlib.dll
+      - system.yaml
+      public:
+      - BsSndRpt.exe
+      - BugSplat.dll
+      - BugSplatRc.dll
+      - concrt140.dll
+      - msvcp140.dll
+      - vcruntime140.dll
+      - api-ms-win-core-console-l1-1-0.dll
+      - api-ms-win-core-datetime-l1-1-0.dll
+      - api-ms-win-core-debug-l1-1-0.dll
+      - api-ms-win-core-errorhandling-l1-1-0.dll
+      - api-ms-win-core-file-l1-1-0.dll
+      - api-ms-win-core-file-l1-2-0.dll
+      - api-ms-win-core-file-l2-1-0.dll
+      - api-ms-win-core-handle-l1-1-0.dll
+      - api-ms-win-core-heap-l1-1-0.dll
+      - api-ms-win-core-interlocked-l1-1-0.dll
+      - api-ms-win-core-libraryloader-l1-1-0.dll
+      - api-ms-win-core-localization-l1-2-0.dll
+      - api-ms-win-core-memory-l1-1-0.dll
+      - api-ms-win-core-namedpipe-l1-1-0.dll
+      - api-ms-win-core-processenvironment-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-1.dll
+      - api-ms-win-core-profile-l1-1-0.dll
+      - api-ms-win-core-rtlsupport-l1-1-0.dll
+      - api-ms-win-core-string-l1-1-0.dll
+      - api-ms-win-core-synch-l1-1-0.dll
+      - api-ms-win-core-synch-l1-2-0.dll
+      - api-ms-win-core-sysinfo-l1-1-0.dll
+      - api-ms-win-core-timezone-l1-1-0.dll
+      - api-ms-win-core-util-l1-1-0.dll
+      - api-ms-win-crt-conio-l1-1-0.dll
+      - api-ms-win-crt-convert-l1-1-0.dll
+      - api-ms-win-crt-environment-l1-1-0.dll
+      - api-ms-win-crt-filesystem-l1-1-0.dll
+      - api-ms-win-crt-heap-l1-1-0.dll
+      - api-ms-win-crt-locale-l1-1-0.dll
+      - api-ms-win-crt-math-l1-1-0.dll
+      - api-ms-win-crt-multibyte-l1-1-0.dll
+      - api-ms-win-crt-private-l1-1-0.dll
+      - api-ms-win-crt-process-l1-1-0.dll
+      - api-ms-win-crt-runtime-l1-1-0.dll
+      - api-ms-win-crt-stdio-l1-1-0.dll
+      - api-ms-win-crt-string-l1-1-0.dll
+      - api-ms-win-crt-time-l1-1-0.dll
+      - api-ms-win-crt-utility-l1-1-0.dll
+      - ucrtbase.dll
+      - libcurl.dll
+      - libcrypto-1_1.dll
+      - libssl-1_1.dll
+      - libnghttp2.dll
+      - yaml.dll
+      - zlib.dll
+      - system.yaml
+      releasedbg:
+      - BsSndRpt.exe
+      - BugSplat.dll
+      - BugSplatRc.dll
+      - concrt140.dll
+      - msvcp140.dll
+      - vcruntime140.dll
+      - api-ms-win-core-console-l1-1-0.dll
+      - api-ms-win-core-datetime-l1-1-0.dll
+      - api-ms-win-core-debug-l1-1-0.dll
+      - api-ms-win-core-errorhandling-l1-1-0.dll
+      - api-ms-win-core-file-l1-1-0.dll
+      - api-ms-win-core-file-l1-2-0.dll
+      - api-ms-win-core-file-l2-1-0.dll
+      - api-ms-win-core-handle-l1-1-0.dll
+      - api-ms-win-core-heap-l1-1-0.dll
+      - api-ms-win-core-interlocked-l1-1-0.dll
+      - api-ms-win-core-libraryloader-l1-1-0.dll
+      - api-ms-win-core-localization-l1-2-0.dll
+      - api-ms-win-core-memory-l1-1-0.dll
+      - api-ms-win-core-namedpipe-l1-1-0.dll
+      - api-ms-win-core-processenvironment-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-1.dll
+      - api-ms-win-core-profile-l1-1-0.dll
+      - api-ms-win-core-rtlsupport-l1-1-0.dll
+      - api-ms-win-core-string-l1-1-0.dll
+      - api-ms-win-core-synch-l1-1-0.dll
+      - api-ms-win-core-synch-l1-2-0.dll
+      - api-ms-win-core-sysinfo-l1-1-0.dll
+      - api-ms-win-core-timezone-l1-1-0.dll
+      - api-ms-win-core-util-l1-1-0.dll
+      - api-ms-win-crt-conio-l1-1-0.dll
+      - api-ms-win-crt-convert-l1-1-0.dll
+      - api-ms-win-crt-environment-l1-1-0.dll
+      - api-ms-win-crt-filesystem-l1-1-0.dll
+      - api-ms-win-crt-heap-l1-1-0.dll
+      - api-ms-win-crt-locale-l1-1-0.dll
+      - api-ms-win-crt-math-l1-1-0.dll
+      - api-ms-win-crt-multibyte-l1-1-0.dll
+      - api-ms-win-crt-private-l1-1-0.dll
+      - api-ms-win-crt-process-l1-1-0.dll
+      - api-ms-win-crt-runtime-l1-1-0.dll
+      - api-ms-win-crt-stdio-l1-1-0.dll
+      - api-ms-win-crt-string-l1-1-0.dll
+      - api-ms-win-crt-time-l1-1-0.dll
+      - api-ms-win-crt-utility-l1-1-0.dll
+      - ucrtbase.dll
+      - libcurl.dll
+      - libcrypto-1_1.dll
+      - libssl-1_1.dll
+      - libnghttp2.dll
+      - yaml.dll
+      - zlib.dll
+      - system.yaml
+    icon_version: 2
+player_bug_report_url: https://login.leagueoflegends.com/?redirect_uri=http%3A%2F%2Fkr-lcu-update.leagueoflegends.com%2Fko_KR%2Fclient-update%2Fredirect&region=kr
+player_support_url:
+  cs_CZ: https://support.riotgames.com/hc/cs
+  de_DE: https://support.riotgames.com/hc/de
+  default: https://support.riotgames.com/
+  el_GR: https://support.riotgames.com/hc/el
+  en_AU: https://support.riotgames.com/hc/en-us
+  en_GB: https://support.riotgames.com/hc/en-us
+  en_PL: https://support.riotgames.com/hc/en-us
+  en_US: https://support.riotgames.com/hc/en-us
+  es_AR: https://support.riotgames.com/hc/es-419
+  es_ES: https://support.riotgames.com/hc/es
+  es_MX: https://support.riotgames.com/hc/es-419
+  fr_FR: https://support.riotgames.com/hc/fr
+  hu_HU: https://support.riotgames.com/hc/hu
+  it_IT: https://support.riotgames.com/hc/it
+  ja_JP: https://support.riotgames.com/hc/ja
+  ko_KR: https://signup.leagueoflegends.co.kr/Customer/faq.php
+  pl_PL: https://support.riotgames.com/hc/pl
+  pt_BR: https://support.riotgames.com/hc/pt-br
+  ro_RO: https://support.riotgames.com/hc/ro
+  ru_RU: https://support.riotgames.com/hc/ru
+  tr_TR: https://support.riotgames.com/hc/tr
+products:
+- id: league_of_legends
+  launcher:
+    component_id: league_client_sln
+    component_type: solution
+    executables:
+      app: LeagueClient.exe
+      exe: LeagueClient.exe
+    installer_project: league_client
+  patcher:
+    components:
+    - copy_to_solution: false
+      headers: []
+      history: keep
+      hostname: kr.patchdata.lolstatic.com
+      id: league_client_sln
+      locale: ko_KR
+      region: KR
+      remote_path: /KR_CBT
+      type: solution
+      use_tls: true
+    - copy_to_solution: true
+      headers: []
+      history: none
+      hostname: kr.patchdata.lolstatic.com
+      id: lol_game_client_sln
+      locale: ko_KR
+      region: KR
+      remote_path: /KR_CBT
+      type: solution
+      use_tls: true
+    id: league_of_legends
+region_data:
+  KR:
+    available_locales:
+    - ko_KR
+    default_locale: ko_KR
+    rso_platform_id: LA1
+    servers:
+      account_recovery:
+        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
+      chat:
+        allow_self_signed_cert: false
+        chat_host: chat.la1.lol.riotgames.com
+        chat_port: 5223
+      entitlements:
+        entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+      lcds:
+        lcds_host: prod.la1.lol.riotgames.com
+        lcds_port: 2099
+        login_queue_url: https://lq.la1.lol.riotgames.com/login-queue/rest/queues/lol
+        use_tls: true
+      license_agreement_urls:
+        eula: http://lan.leagueoflegends.com/{language}/legal/eula
+        terms_of_use: http://lan.leagueoflegends.com/{language}/legal/termsofuse
+      payments:
+        payments_host: https://plstore2.la1.lol.riotgames.com
+      prelogin_config:
+        prelogin_config_url: https://prod.config.patcher.riotgames.com
+      rms:
+        rms_heartbeat_interval_seconds: 60
+        rms_url: wss://riot.edge.rms.si.riotgames.com:443
+      service_status:
+        api_url: https://status.leagueoflegends.com/shards/lan/synopsis
+        human_readable_status_url: https://status.leagueoflegends.com/#lan
+      store:
+        store_url: https://store.la1.lol.riotgames.com
+    web_region: lan
+  KR_TEST:
+    available_locales:
+    - ko_KR
+    default_locale: ko_KR
+    is_hidden: true
+    rso_platform_id: KR
+    servers:
+      chat:
+        allow_self_signed_cert: false
+        chat_host: chat.kr.lol.riotgames.com
+        chat_port: 5223
+      entitlements:
+        entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+      lcds:
+        lcds_host: prod.kr.lol.riotgames.com
+        lcds_port: 2099
+        login_queue_url: https://lq.kr.lol.riotgames.com/login-queue/rest/queues/lol
+        use_tls: true
+      license_agreement_urls:
+        eula: http://www.leagueoflegends.co.kr/?m=rules&cid=3
+        terms_of_use: http://www.leagueoflegends.co.kr/?m=rules&cid=1
+      payments:
+        payments_host: https://plstore.kr.lol.riotgames.com
+      prelogin_config:
+        prelogin_config_url: https://prod.config.patcher.riotgames.com
+      rms:
+        rms_heartbeat_interval_seconds: 60
+        rms_url: wss://riot.edge.rms.si.riotgames.com:443
+      service_status:
+        api_url: https://status.leagueoflegends.com/shards/kr/synopsis
+        human_readable_status_url: https://status.leagueoflegends.com/#kr
+      store:
+        store_url: https://store.kr.lol.riotgames.com
+    web_region: kr
+rso:
+  kount:
+    collector: prod02.kaxsdc.com
+    merchant: '108000'
+  token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
