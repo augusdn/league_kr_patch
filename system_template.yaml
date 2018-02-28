@@ -263,47 +263,7 @@ region_data:
   KR:
     available_locales:
     - ko_KR
-    default_locale: en_GB
-    rso:
-      allow_lq_fallback: false
-      kount:
-        collector: prod02.kaxsdc.com
-        merchant: '108000'
-      token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
-    rso_platform_id: EUN1
-    servers:
-      account_recovery:
-        forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
-        forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
-      chat:
-        allow_self_signed_cert: false
-        chat_host: chat.eun1.lol.riotgames.com
-        chat_port: 5223
-      discoverous_service_location: lolriot.euc1.eun1
-      email_verification:
-        external_url: https://email-verification.riotgames.com/api
-      entitlements:
-        entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
-      lcds:
-        lcds_host: prod.eun1.lol.riotgames.com
-        lcds_port: 2099
-        login_queue_url: https://lq.eun1.lol.riotgames.com/login-queue/rest/queues/lol
-        use_tls: true
-      license_agreement_urls:
-        terms_of_use: http://eune.leagueoflegends.com/{language}/legal/termsofuse
-      payments:
-        payments_host: https://plstore.eun1.lol.riotgames.com
-      prelogin_config:
-        prelogin_config_url: https://prod.config.patcher.riotgames.com
-      rms:
-        rms_heartbeat_interval_seconds: 60
-        rms_url: wss://eu.edge.rms.si.riotgames.com:443
-      service_status:
-        api_url: https://status.leagueoflegends.com/shards/eune/synopsis
-        human_readable_status_url: https://status.leagueoflegends.com/#eune
-      store:
-        store_url: https://store.eun1.lol.riotgames.com
-    web_region: eune
+    *********************************************** REPLACE THIS ****************************************************
   KR_TEST:
     available_locales:
     - ko_KR
