@@ -17,13 +17,13 @@ app:
   ux_helper_name: LeagueClientUxHelper
   ux_name: LeagueClientUx
 build:
-  branch: '8.4'
-  branch-full: LCUReleases/8.4
-  code-build-id: 7121195
-  content-build-id: 7122250
-  game-branch: '8.4'
-  game-branch-full: Releases/8.4
-  game-data-build-id: 7068078
+  branch: '8.6'
+  branch-full: LCUReleases/8.6
+  code-build-id: 7324676
+  content-build-id: 7351541
+  game-branch: '8.6'
+  game-branch-full: Releases/8.6
+  game-data-build-id: 7324092
   patchline: KR_CBT
   patchline-visible-name: ''
 default_region: KR
@@ -304,6 +304,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#las
       store:
         store_url: https://store.la2.lol.riotgames.com
+      voice:
+        access_token_uri: https://us.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://us.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0sae1.vivox.com
+        voice_url: https://riotp0sae1.www.vivox.com/api2
     web_region: las
   KR_TEST:
     available_locales:
@@ -350,4 +356,10 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#kr
       store:
         store_url: https://store.kr.lol.riotgames.com
+      voice:
+        access_token_uri: https://asia.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://asia.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0apne1.vivox.com
+        voice_url: https://riotp0apne1.www.vivox.com/api2
     web_region: kr

@@ -16,13 +16,13 @@ app:
   ux_helper_name: LeagueClientUxHelper
   ux_name: LeagueClientUx
 build:
-  branch: '8.4'
-  branch-full: LCUReleases/8.4
-  code-build-id: 7121195
-  content-build-id: 7122250
-  game-branch: '8.4'
-  game-branch-full: Releases/8.4
-  game-data-build-id: 7068078
+  branch: '8.6'
+  branch-full: LCUReleases/8.6
+  code-build-id: 7324676
+  content-build-id: 7351541
+  game-branch: '8.6'
+  game-branch-full: Releases/8.6
+  game-data-build-id: 7324092
   patchline: live
   patchline-visible-name: ''
 default_region: NA
@@ -302,6 +302,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#br
       store:
         store_url: https://store.br.lol.riotgames.com
+      voice:
+        access_token_uri: https://us.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://us.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0sae1.vivox.com
+        voice_url: https://riotp0sae1.www.vivox.com/api2
     web_region: br
   EUNE:
     available_locales:
@@ -351,6 +357,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#eune
       store:
         store_url: https://store.eun1.lol.riotgames.com
+      voice:
+        access_token_uri: https://eu.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://eu.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0euw1.vivox.com
+        voice_url: https://riotp0euw1.www.vivox.com/api2
     web_region: eune
   EUW:
     available_locales:
@@ -399,6 +411,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#euw
       store:
         store_url: https://store.euw1.lol.riotgames.com
+      voice:
+        access_token_uri: https://eu.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://eu.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0euw1.vivox.com
+        voice_url: https://riotp0euw1.www.vivox.com/api2
     web_region: euw
   JP:
     available_locales:
@@ -444,6 +462,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#jp
       store:
         store_url: https://store.jp1.lol.riotgames.com
+      voice:
+        access_token_uri: https://asia.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://asia.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0apne1.vivox.com
+        voice_url: https://riotp0apne1.www.vivox.com/api2
     web_region: jp
   LA1:
     available_locales:
@@ -489,6 +513,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#lan
       store:
         store_url: https://store.la1.lol.riotgames.com
+      voice:
+        access_token_uri: https://us.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://us.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0use1.vivox.com
+        voice_url: https://riotp0use1.www.vivox.com/api2
     web_region: lan
   LA2:
     available_locales:
@@ -534,6 +564,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#las
       store:
         store_url: https://store.la2.lol.riotgames.com
+      voice:
+        access_token_uri: https://us.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://us.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0sae1.vivox.com
+        voice_url: https://riotp0sae1.www.vivox.com/api2
     web_region: las
   NA:
     available_locales:
@@ -578,6 +614,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#na
       store:
         store_url: https://store.na2.lol.riotgames.com
+      voice:
+        access_token_uri: https://us.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://us.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0use1.vivox.com
+        voice_url: https://riotp0use1.www.vivox.com/api2
     web_region: na
   OC1:
     available_locales:
@@ -623,6 +665,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#oce
       store:
         store_url: https://store.oc1.lol.riotgames.com
+      voice:
+        access_token_uri: https://asia.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://asia.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0apse2.vivox.com
+        voice_url: https://riotp0apse2.www.vivox.com/api2
     web_region: oce
   RU:
     available_locales:
@@ -668,6 +716,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#ru
       store:
         store_url: https://store.ru.lol.riotgames.com
+      voice:
+        access_token_uri: https://eu.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://eu.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0euc1.vivox.com
+        voice_url: https://riotp0euc1.www.vivox.com/api2
     web_region: ru
   TEST:
     available_locales:
@@ -713,6 +767,12 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#na
       store:
         store_url: https://store.na2.lol.riotgames.com
+      voice:
+        access_token_uri: https://us.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://us.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0use1.vivox.com
+        voice_url: https://riotp0use1.www.vivox.com/api2
     web_region: na
   TR:
     available_locales:
@@ -757,5 +817,10 @@ region_data:
         human_readable_status_url: https://status.leagueoflegends.com/#tr
       store:
         store_url: https://store.tr.lol.riotgames.com
+      voice:
+        access_token_uri: https://eu.vts.si.riotgames.com/access_token/v1
+        auth_token_uri: https://eu.vts.si.riotgames.com/auth_token/v1
+        use_external_auth: true
+        voice_domain: riotp0euc1.vivox.com
+        voice_url: https://riotp0euc1.www.vivox.com/api2
     web_region: tr
-
